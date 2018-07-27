@@ -3,12 +3,17 @@ import './App.css';
 // import Button from '@material-ui/core/Button';
 
 import Toolbar from './Toolbar/Toolbar';
-
+import BackgroundImage from './BackgroundImage/BackgroundImage';
 class App extends Component {
 
   render() {
     return (
-      <Toolbar />
+      <React.Fragment>
+        <Toolbar />
+        <BackgroundImage>
+          
+        </BackgroundImage>
+      </React.Fragment>
   );
   }
 }
