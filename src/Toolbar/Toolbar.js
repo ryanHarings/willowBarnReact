@@ -4,20 +4,19 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import classes from './Toolbar.css';
 
 const toolbar = () => (
   <React.Fragment>
     <AppBar position="static">
-      <Toolbar>
-        {/* <IconButton color="inherit" aria-label="Menu">
-          <MenuIcon />
-        </IconButton> */}
+      <Toolbar className={classes.Toolbar}>
         <Typography variant="title" color="inherit">
-          News
+          Nathan Dennis
         </Typography>
-        <Button color="inherit">Login</Button>
+        <div>
+          <Button color="inherit" href="https://github.com/nathanejbrown">Github</Button>
+          <Button color="inherit" href="https://linkedin.com/in/nathanejbrown">Linkedin</Button>
+        </div>
       </Toolbar>
     </AppBar>
   </React.Fragment>
