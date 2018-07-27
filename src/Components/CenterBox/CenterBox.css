@@ -1,0 +1,19 @@
+.CenterBox {
+  background-color: #303030;
+  opacity: 0.9;
+  height: 40%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.CenterBox * {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.CenterBox hr {
+  width: 80%;
+}
