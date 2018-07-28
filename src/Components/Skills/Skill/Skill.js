@@ -23,7 +23,7 @@ const skill = (props) => {
       <div>
           <FontAwesomeIcon icon={myIcon} size='3x'/>
           <h2>{props.type}</h2>
-          <p>{props.list.join(' ')}</p>
+          <p>{props.list.join(', ')}</p>
       </div>
     </div>
   )
