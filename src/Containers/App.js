@@ -7,13 +7,12 @@ import BackgroundImage from '../Components/BackgroundImage/BackgroundImage';
 import CenterBox from '../Components/CenterBox/CenterBox';
 import Projects from '../Components/Projects/Projects';
 import TitleRow from '../Components/TitleRow/TitleRow';
+import Skills from '../Components/Skills/Skills';
 
 class App extends Component {
 
-
-  render() {
-
-    const projectsList = [
+  state = {
+    projectsList: [
       {
         title: 'BeerLeagueMe',
         description: 'This is an ongoing project to create a network of local sports events. The front end is built in AngularJS, and accesses a separately deployed Node.js server with a PostgreSQL database.',
@@ -32,7 +31,24 @@ class App extends Component {
         githubUrl: 'https://github.com/nathanejbrown/q1Project',
         deployedUrl: 'https://nathanejbrown.github.io/q1Project'
       }
+    ],
+    skillsList: [
+      {
+        skillType: 'Languages',
+        skillsArray: ['HTML, CSS, JavaScript']
+      },
+      {
+        skillType: 'Tools',
+        skillsArray: ['React', 'AngularJS', 'Boostrap', 'Materialize', 'Google Material Design', 'Node.js', 'Express', 'PostgreSQL', 'jQuery', 'git/Github', 'AJAX', 'Heroku', 'RESTful APIs']
+      },
+      {
+        skillType: 'Other',
+        skillsArray: ['Agile', 'CustomerService', 'Writing', 'Time Management', 'Self Motivation', 'Teamwork', 'Creativity']
+      }
     ]
+  }
+
+  render() {
 
     return (
       <React.Fragment>
@@ -48,13 +64,13 @@ class App extends Component {
           <h1>Projects</h1>
         </TitleRow>
         <BackgroundImage background="Winnipeg">
-          <Projects projectsList={projectsList} />
+          <Projects projectsList={this.state.projectsList} />
         </BackgroundImage>
         <TitleRow>
           <h1>Skills</h1>
         </TitleRow>
         <BackgroundImage background="Boston">
-
+          <Skills skillsList={this.state.skillsList} />
         </BackgroundImage>
       </React.Fragment>
   );

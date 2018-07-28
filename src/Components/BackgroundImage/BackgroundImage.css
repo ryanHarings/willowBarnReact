@@ -5,6 +5,7 @@
   background-size: cover;
   display: flex;
   justify-content: center;
+  background-attachment: fixed;
 }
 
 .Albuquerque {
@@ -22,5 +23,6 @@
 @media (max-width: 500px) {
   .BackgroundImage {
     height: auto;
+    min-height: 95vh;
   }
 }

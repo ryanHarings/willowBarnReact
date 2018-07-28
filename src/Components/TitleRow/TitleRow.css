@@ -1,7 +1,8 @@
 .TitleRow {
   height: 10%;
   width: 100%;
-  background-color: white;
+  background-color: #4054b2;
+  color: #e6e8f5;
   display: flex;
   align-items: center;
   justify-content: center;
