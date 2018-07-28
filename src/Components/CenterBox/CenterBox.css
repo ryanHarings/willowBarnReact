@@ -7,13 +7,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-self: center;
 }
 
 .CenterBox * {
   color: white;
   font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
 .CenterBox hr {
   width: 80%;
+}
+
+@media (max-width: 500px) {
+  .CenterBox {
+    width: 50%;
+  }
 }

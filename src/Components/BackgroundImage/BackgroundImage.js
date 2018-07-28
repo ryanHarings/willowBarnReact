@@ -4,8 +4,8 @@ import classes from './BackgroundImage.css';
 
 const backgroundImage = (props) => {
   let myClasses = [];
-  if (props.city) {
-    myClasses = [classes.BackgroundImage, classes[props.city]];
+  if (props.background) {
+    myClasses = [classes.BackgroundImage, classes[props.background]];
   } else {
     myClasses = [classes.BackgroundImage];
   }
@@ -15,6 +15,5 @@ const backgroundImage = (props) => {
     </div>
   )
 }
-
 
 export default backgroundImage;

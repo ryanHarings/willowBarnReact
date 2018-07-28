@@ -1,18 +1,26 @@
 .BackgroundImage {
-  height: 600px;
+  height: 92vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  align-items: center;
   justify-content: center;
-  /*background-image: url('../../assets/Images/Albuquerque.jpg');*/
 }
 
 .Albuquerque {
   background-image: url('../../assets/Images/Albuquerque.jpg');
 }
 
-h1 {
-  color: white;
+.Winnipeg {
+  background-image: url('../../assets/Images/Winnipeg.jpg');
+}
+
+.Boston {
+  background-image: url('../../assets/Images/Boston.jpg');
+}
+
+@media (max-width: 500px) {
+  .BackgroundImage {
+    height: auto;
+  }
 }
