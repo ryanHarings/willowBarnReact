@@ -24,5 +24,6 @@
   .BackgroundImage {
     height: auto;
     min-height: 95vh;
+    background-attachment: scroll;
   }
 }
