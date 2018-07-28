@@ -8,6 +8,8 @@ import CenterBox from '../Components/CenterBox/CenterBox';
 import Projects from '../Components/Projects/Projects';
 import TitleRow from '../Components/TitleRow/TitleRow';
 import Skills from '../Components/Skills/Skills';
+import Modal from '../Components/UI/Modal/Modal';
+import Form from '../Components/UI/Form/Form';
 
 class App extends Component {
 
@@ -45,14 +47,26 @@ class App extends Component {
         skillType: 'Other',
         skillsArray: ['Agile', 'Customer Service', 'Writing', 'Time Management', 'Self Motivation', 'Teamwork', 'Creativity']
       }
-    ]
+    ],
+    contacting: false
+  }
+
+  contactShowHandler = () => {
+    this.setState({contacting: true})
+  }
+
+  contactHideHandler = () => {
+    this.setState({contacting: false})
   }
 
   render() {
 
     return (
       <React.Fragment>
-        <Toolbar />
+        <Modal show={this.state.contacting} modalClosed={this.contactHideHandler}>
+          <Form />
+        </Modal>
+        <Toolbar showForm={this.contactShowHandler}/>
         <BackgroundImage background="Albuquerque">
           <CenterBox>
             <h1>Nathan Dennis</h1>

@@ -7,26 +7,30 @@ import classes from './Toolbar.css';
 
 import resume from '../../assets/Resume.pdf';
 
-const toolbar = () => (
-  <React.Fragment>
-    <AppBar position="static">
-      <Toolbar className={classes.Toolbar}>
-        <h2>
-          <a href="/">Nathan Dennis</a>
-        </h2>
-        <div className={classes.rowOrColumn}>
-          <div>
-            <Button href="https://github.com/nathanejbrown">Github</Button>
-            <Button href="https://linkedin.com/in/nathanejbrown">Linkedin</Button>
+const toolbar = (props) => {
+
+  return (
+    <React.Fragment>
+      <AppBar position="static">
+        <Toolbar className={classes.Toolbar}>
+          <h2>
+            <a href="/">Nathan Dennis</a>
+          </h2>
+          <div className={classes.rowOrColumn}>
+            <div>
+              <Button href="https://github.com/nathanejbrown">Github</Button>
+              <Button href="https://linkedin.com/in/nathanejbrown">Linkedin</Button>
+            </div>
+            <div>
+              <Button href={resume} target = "_blank">Resume</Button>
+              <Button onClick={props.showForm}>Contact</Button>
+            </div>
           </div>
-          <div>
-            <Button href={resume} target = "_blank">Resume</Button>
-            <Button href="/">Contact</Button>
-          </div>
-        </div>
-      </Toolbar>
-    </AppBar>
-  </React.Fragment>
-)
+        </Toolbar>
+      </AppBar>
+    </React.Fragment>
+  )
+
+}
 
 export default toolbar;
