@@ -14,10 +14,15 @@ const toolbar = () => (
         <h2>
           <a href="/">Nathan Dennis</a>
         </h2>
-        <div>
-          <Button color="inherit" href="https://github.com/nathanejbrown">Github</Button>
-          <Button color="inherit" href="https://linkedin.com/in/nathanejbrown">Linkedin</Button>
-          <Button href={resume} target = "_blank">Resume</Button>
+        <div className={classes.rowOrColumn}>
+          <div>
+            <Button href="https://github.com/nathanejbrown">Github</Button>
+            <Button href="https://linkedin.com/in/nathanejbrown">Linkedin</Button>
+          </div>
+          <div>
+            <Button href={resume} target = "_blank">Resume</Button>
+            <Button href="/">Contact</Button>
+          </div>
         </div>
       </Toolbar>
     </AppBar>

@@ -12,3 +12,14 @@
   text-decoration: none;
   color: white;
 }
+
+.rowOrColumn {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 500px) {
+  .rowOrColumn {
+    flex-direction: column;
+  }
+}
