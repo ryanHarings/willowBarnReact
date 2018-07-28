@@ -43,7 +43,7 @@ class App extends Component {
       },
       {
         skillType: 'Other',
-        skillsArray: ['Agile', 'CustomerService', 'Writing', 'Time Management', 'Self Motivation', 'Teamwork', 'Creativity']
+        skillsArray: ['Agile', 'Customer Service', 'Writing', 'Time Management', 'Self Motivation', 'Teamwork', 'Creativity']
       }
     ]
   }
