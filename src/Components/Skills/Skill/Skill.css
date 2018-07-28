@@ -17,7 +17,7 @@
   max-width: 200px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .CircleCard {
     height: 280px;
     width: 280px;

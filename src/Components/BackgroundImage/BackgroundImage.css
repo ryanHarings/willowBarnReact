@@ -20,7 +20,7 @@
   background-image: url('../../assets/Images/Boston.jpg');
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .BackgroundImage {
     height: auto;
     min-height: 95vh;
