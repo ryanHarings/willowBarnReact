@@ -13,10 +13,12 @@ const toolbar = (props) => {
     <React.Fragment>
       <AppBar position="static">
         <Toolbar className={classes.Toolbar}>
-          <h2>
-            <a href="/">Nathan Dennis</a>
-          </h2>
-          <div className={classes.rowOrColumn}>
+          <div className={classes.RightBorder}>
+            <h2>
+              <a href="/">Nathan Dennis</a>
+            </h2>
+          </div>
+          <div className={classes.row}>
             <div>
               <Button href="https://github.com/nathanejbrown">Github</Button>
               <Button href="https://linkedin.com/in/nathanejbrown">Linkedin</Button>

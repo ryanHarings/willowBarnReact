@@ -10,13 +10,14 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.rowOrColumn {
+.row {
   display: flex;
   flex-direction: row;
 }
 
 @media (max-width: 500px) {
-  .rowOrColumn {
-    flex-direction: column;
+  .RightBorder {
+    border-right: 1px solid grey;
+    padding-right: 10px;
   }
 }
