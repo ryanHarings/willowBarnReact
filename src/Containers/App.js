@@ -22,10 +22,10 @@ class App extends Component {
         deployedUrl: 'https://nathanejbrown.github.io/beerleagueme'
       },
       {
-        title: 'Listen',
-        description: 'Listen was my Capstone project at Galvanize. Its intent is to connect survivors of sexual assault with counselors. It’s primarily written in AngularJS with an Express, Node.js, and PostgreSQL back end.',
-        githubUrl: 'https://github.com/nathanejbrown/capstone-front-end',
-        deployedUrl: 'https://nathanejbrown.github.io/capstone-front-end/#/'
+        title: 'React Burger Builder',
+        description: 'This is an ongoing project that I\'m working on as I continue to learn React.',
+        githubUrl: 'https://github.com/nathanejbrown/React-Burger-Builder',
+        deployedUrl: 'https://nathanejbrown.github.io/React-Burger-Builder'
       },
       {
         title: 'Tribbianify',
