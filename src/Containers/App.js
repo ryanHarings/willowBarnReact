@@ -29,7 +29,7 @@ class App extends Component {
       },
       {
         title: 'Tribbianify',
-        description: 'This was a project I did for fun that’s based on an episode of Friends where Joey uses a thesaurus on every word in a letter he’s writing to make it sound more intelligent. It heavily utilizes AJAX technology and was build with HTML, CSS, JavaScript, and jQuery.',
+        description: 'This was a project I did for fun that’s based on an episode of Friends where Joey uses a thesaurus on every word in a letter he’s writing to make it sound more intelligent. It heavily utilizes AJAX technology and was built with HTML, CSS, JavaScript, and jQuery.',
         githubUrl: 'https://github.com/nathanejbrown/q1Project',
         deployedUrl: 'https://nathanejbrown.github.io/q1Project'
       }
@@ -71,7 +71,7 @@ class App extends Component {
           <CenterBox>
             <h1>Nathan Dennis</h1>
             <hr />
-            <h2>Web Developer</h2>
+            <h2>Full Stack Developer</h2>
           </CenterBox>
         </BackgroundImage>
         <TitleRow>

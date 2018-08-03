@@ -20,8 +20,8 @@ const toolbar = (props) => {
           </div>
           <div className={classes.row}>
             <div>
-              <Button href="https://github.com/nathanejbrown">Github</Button>
-              <Button href="https://linkedin.com/in/nathanejbrown">Linkedin</Button>
+              <Button href="https://github.com/nathanejbrown" target="_blank">Github</Button>
+              <Button href="https://linkedin.com/in/nathanejbrown" target="_blank">Linkedin</Button>
             </div>
             <div>
               <Button href={resume} target = "_blank">Resume</Button>
