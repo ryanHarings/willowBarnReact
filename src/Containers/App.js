@@ -17,19 +17,22 @@ class App extends Component {
     projectsList: [
       {
         title: 'BeerLeagueMe',
-        description: 'This is an ongoing project to create a network of local sports events. The front end is built in AngularJS, and accesses a separately deployed Node.js server with a PostgreSQL database.',
+        description: 'This is an ongoing project to create a network of local sports events.',
+        technologies: ['JavaScript', 'AngularJS', 'Node.js', 'Express', 'PostgreSQL'],
         githubUrl: 'https://github.com/nathanejbrown/beerleagueme',
         deployedUrl: 'https://nathanejbrown.github.io/beerleagueme'
       },
       {
-        title: 'React Burger Builder',
+        title: 'Burger Builder',
         description: 'This is an ongoing project that I\'m working on as I continue to learn React.',
-        githubUrl: 'https://github.com/nathanejbrown/React-Burger-Builder',
-        deployedUrl: 'https://nathanejbrown.github.io/React-Burger-Builder'
+        technologies: ['JavaScript', 'React', 'Axios'],
+        githubUrl: 'https://github.com/nathanejbrown/Burger-Builder',
+        deployedUrl: 'https://nathanejbrown.github.io/Burger-Builder'
       },
       {
         title: 'Tribbianify',
-        description: 'This was a project I did for fun that’s based on an episode of Friends where Joey uses a thesaurus on every word in a letter he’s writing to make it sound more intelligent. It heavily utilizes AJAX technology and was built with HTML, CSS, JavaScript, and jQuery.',
+        description: 'This was a project I did for fun that’s based on an episode of Friends where Joey uses a thesaurus on every word in a letter he’s writing to make it sound more intelligent.',
+        technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'AJAX'],
         githubUrl: 'https://github.com/nathanejbrown/q1Project',
         deployedUrl: 'https://nathanejbrown.github.io/q1Project'
       }

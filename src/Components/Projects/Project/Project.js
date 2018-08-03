@@ -8,27 +8,41 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
-const project = (props) => (
-  <Card className={classes.card}>
-    <CardContent>
-      <h1>{props.title}</h1>
-      <p>{props.description}</p>
-      <div className={classes.horizontalAlign}>
-        <a href={props.githubUrl}>
-          <div>
-            <FontAwesomeIcon icon={faCoffee} />
-            <p>Github Repo</p>
-          </div>
-        </a>
-        <a href={props.deployedUrl}>
-          <div>
-            <FontAwesomeIcon icon={faLink} />
-            <p>Deployed Site</p>
-          </div>
-        </a>
-      </div>
-    </CardContent>
-  </Card>
-)
+const project = (props) => {
+
+  var technologies = props.tech.map((lang, i) => (
+    <li key={i}>
+      &lt;{lang} /&gt;
+    </li>
+  ))
+
+  return (
+    <Card className={classes.card}>
+      <CardContent>
+        <h1>{props.title}</h1>
+        <p>{props.description}</p>
+          <ul>
+            {technologies}
+          </ul>
+        <div className={classes.horizontalAlign}>
+          <a href={props.githubUrl} target="_blank">
+            <div>
+              <FontAwesomeIcon icon={faCoffee} />
+              <p>Github Repo</p>
+            </div>
+          </a>
+          <div className={classes.borderLine}></div>
+          <a href={props.deployedUrl} target="_blank">
+            <div>
+              <FontAwesomeIcon icon={faLink} />
+              <p>Deployed Site</p>
+            </div>
+          </a>
+        </div>
+      </CardContent>
+    </Card>
+  )
+
+}
 
 export default project;

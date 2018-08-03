@@ -11,6 +11,7 @@ const projects = (props) => {
     <Project
       key={i}
       title={project.title}
+      tech={project.technologies}
       description={project.description}
       githubUrl={project.githubUrl}
       deployedUrl={project.deployedUrl}/>
