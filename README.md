@@ -1,7 +1,5 @@
-# Portfolio
+# The Willow Barn
 
-This is the code for my portfolio site, located at nathancodes.tech
-
-It's built entirely using React, and was the first solo project that I did after I began teaching myself React.
+A website created for the Willow Barn event space. A rustic, long-time family farm repurposed for use as a wedding or part venue.
 
 ######This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
