@@ -9,15 +9,18 @@
 }
 
 .Albuquerque {
-  background-image: url('../../assets/Images/Albuquerque.jpg');
+  /* background-image: url('../../assets/Images/Albuquerque.jpg'); */
+  background-image: url('https://s9739.pcdn.co/wp-content/uploads/2013/05/barn-wedding-rehearsal-outdoor-venue.jpg.optimal.jpg');
 }
 
 .Winnipeg {
-  background-image: url('../../assets/Images/Winnipeg.jpg');
+  /* background-image: url('../../assets/Images/Winnipeg.jpg'); */
+  background-image: url('https://images.fineartamerica.com/images-medium-large-5/rustic-white-barn-cricket-hackmann.jpg');
 }
 
 .Boston {
-  background-image: url('../../assets/Images/Boston.jpg');
+  /* background-image: url('../../assets/Images/Boston.jpg'); */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT_I1gVqH0jzEYRvXJS5eoEmIMAKix-BEr3WKdqCMXJkPjsIccyw');
 }
 
 @media (max-width: 800px) {

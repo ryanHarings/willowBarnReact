@@ -15,16 +15,16 @@ const toolbar = (props) => {
         <Toolbar className={classes.Toolbar}>
           <div className={classes.RightBorder}>
             <h2>
-              <a href="/">Nathan Dennis</a>
+              <a href="/">The Willow Barn</a>
             </h2>
           </div>
           <div className={classes.row}>
             <div>
-              <Button href="https://github.com/nathanejbrown" target="_blank">Github</Button>
-              <Button href="https://linkedin.com/in/nathanejbrown" target="_blank">Linkedin</Button>
+              <Button href="https://github.com/nathanejbrown" target="_blank">The Venue</Button>
+              {/*<Button href="https://linkedin.com/in/nathanejbrown" target="_blank">Linkedin</Button>*/}
             </div>
             <div>
-              <Button href={resume} target = "_blank">Resume</Button>
+              <Button href={resume} target = "_blank">Info</Button>
               <Button onClick={props.showForm}>Contact</Button>
             </div>
           </div>
