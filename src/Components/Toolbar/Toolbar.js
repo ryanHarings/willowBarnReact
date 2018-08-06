@@ -20,7 +20,7 @@ const toolbar = (props) => {
           </div>
           <div className={classes.row}>
             <div>
-              <Button href="https://github.com/nathanejbrown" target="_blank">The Venue</Button>
+              <Button onClick={props.showVenue}>The Venue</Button>
               {/*<Button href="https://linkedin.com/in/nathanejbrown" target="_blank">Linkedin</Button>*/}
             </div>
             <div>

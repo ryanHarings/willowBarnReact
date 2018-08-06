@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 // import Button from '@material-ui/core/Button';
 
+
 import Toolbar from '../Components/Toolbar/Toolbar';
 import BackgroundImage from '../Components/BackgroundImage/BackgroundImage';
 import CenterBox from '../Components/CenterBox/CenterBox';
@@ -9,7 +10,9 @@ import Projects from '../Components/Projects/Projects';
 import TitleRow from '../Components/TitleRow/TitleRow';
 import Skills from '../Components/Skills/Skills';
 import Modal from '../Components/UI/Modal/Modal';
+import PicModal from '../Components/UI/PicModal/PicModal';
 import Form from '../Components/UI/Form/Form';
+import Venue from '../Components/UI/Venue/Venue';
 
 class App extends Component {
 
@@ -83,6 +86,14 @@ class App extends Component {
     this.setState({contacting: false})
   }
 
+  venueShowHandler = () => {
+    this.setState({viewing: true})
+  }
+
+  venueHideHandler = () => {
+    this.setState({viewing: false})
+  }
+
   render() {
 
     return (
@@ -90,7 +101,10 @@ class App extends Component {
         <Modal show={this.state.contacting} modalClosed={this.contactHideHandler}>
           <Form />
         </Modal>
-        <Toolbar showForm={this.contactShowHandler}/>
+        <PicModal show={this.state.viewing} modalClosed={this.venueHideHandler}>
+          <Venue />
+        </PicModal>
+        <Toolbar showForm={this.contactShowHandler} showVenue={this.venueShowHandler}/>
         <BackgroundImage background="Albuquerque">
           <CenterBox>
             <h1>Weddings, Parties, Whatever</h1>
