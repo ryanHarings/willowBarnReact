@@ -5,7 +5,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import classes from './Toolbar.css';
 
-import resume from '../../assets/Resume.pdf';
+// import resume from '../../assets/Resume.pdf';
+import rental from '../../assets/rental.pdf';
 
 const toolbar = (props) => {
 
@@ -14,9 +15,9 @@ const toolbar = (props) => {
       <AppBar position="static">
         <Toolbar className={classes.Toolbar}>
           <div className={classes.RightBorder}>
-            <h2>
+            {/*<h2>
               <a href="/">The Willow Barn</a>
-            </h2>
+            </h2>*/}
           </div>
           <div className={classes.row}>
             <div>
@@ -24,7 +25,7 @@ const toolbar = (props) => {
               {/*<Button href="https://linkedin.com/in/nathanejbrown" target="_blank">Linkedin</Button>*/}
             </div>
             <div>
-              <Button href={resume} target = "_blank">Info</Button>
+              <Button href={rental} target="_blank">Info</Button>
               <Button onClick={props.showForm}>Contact</Button>
             </div>
           </div>

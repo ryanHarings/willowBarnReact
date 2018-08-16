@@ -6,8 +6,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  opacity: 0.9;
+  opacity: 0.5;
   margin: 50px;
+}
+
+h1, p {
+  opacity: 1.0;
 }
 
 a {

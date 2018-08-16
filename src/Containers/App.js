@@ -19,16 +19,16 @@ class App extends Component {
   state = {
     projectsList: [
       {
-        title: 'This is good place for wedding',
-        description: 'Spend money here and good event happen',
-        technologies: ['Barn', 'Bridal Suite', 'Bar'],
+        title: '1800\'s restored barn in a quiet country setting',
+        description: 'Multi-level, open concept barn venue',
+        technologies: ['Dance Floor', 'Patio w/ Firepit', 'Underground Reception Hall', 'Bar Room'],
         githubUrl: 'https://github.com/nathanejbrown/beerleagueme',
         deployedUrl: 'https://nathanejbrown.github.io/beerleagueme'
       },
       {
-        title: 'This is good place for not wedding',
-        description: 'Party party party, but be nice',
-        technologies: ['Bar', 'Dancefloor', 'Lawn', 'Firepit'],
+        title: 'Secluded Bridal Suite',
+        description: 'Private space to be pampered',
+        technologies: ['Detached', 'Tranquil', 'Spacious'],
         githubUrl: 'https://github.com/nathanejbrown/Burger-Builder',
         deployedUrl: 'https://nathanejbrown.github.io/Burger-Builder'
       }
@@ -63,15 +63,15 @@ class App extends Component {
     ],
     skillsList: [
       {
-        skillType: 'Harings',
-        skillsArray: ['cheap', 'nice', 'fun']
+        skillType: 'Affordable',
+        skillsArray: ['', 'nice', 'fun']
       },
       {
-        skillType: 'People',
+        skillType: 'Fun',
         skillsArray: ['words', 'words', 'words']
       },
       {
-        skillType: 'Other',
+        skillType: 'Memorable',
         skillsArray: ['Willow', 'Country']
       }
     ],
@@ -105,27 +105,28 @@ class App extends Component {
           <Venue />
         </PicModal>
         <Toolbar showForm={this.contactShowHandler} showVenue={this.venueShowHandler}/>
+      
         <BackgroundImage background="Albuquerque">
           <CenterBox>
-            <h1>Weddings, Parties, Whatever</h1>
+            <h1>The Willow Barn</h1>
             <hr />
-            <h2>Historic, Rustic, Sexy</h2>
+            <h2>Your wedding, your day, your space</h2>
           </CenterBox>
         </BackgroundImage>
         <TitleRow>
-          <h1>First Info</h1>
+          <h1>Historic</h1>
         </TitleRow>
         <BackgroundImage background="Winnipeg">
           <Projects projectsList={this.state.projectsList} />
         </BackgroundImage>
         <TitleRow>
-          <h1>Second Info</h1>
+          <h1>Rustic</h1>
         </TitleRow>
         <BackgroundImage background="Boston">
-          <Skills skillsList={this.state.skillsList} />
+      {/*<Skills skillsList={this.state.skillsList} />*/}
         </BackgroundImage>
       </React.Fragment>
-  );
+    );
   }
 }
 

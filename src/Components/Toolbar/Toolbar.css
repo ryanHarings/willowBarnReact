@@ -2,12 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 .Toolbar * {
   text-decoration: none;
-  color: white;
+  color: #7E2C0C;
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 .row {

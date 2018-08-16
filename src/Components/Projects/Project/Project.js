@@ -12,7 +12,7 @@ const project = (props) => {
 
   var technologies = props.tech.map((lang, i) => (
     <li key={i}>
-      &lt;{lang} /&gt;
+      {lang}
     </li>
   ))
 
@@ -24,7 +24,7 @@ const project = (props) => {
           <ul>
             {technologies}
           </ul>
-        <div className={classes.horizontalAlign}>
+    {/*<div className={classes.horizontalAlign}>
           <a href={props.githubUrl} target="_blank">
             <div>
               <FontAwesomeIcon icon={faCoffee} />
@@ -38,7 +38,7 @@ const project = (props) => {
               <p>Deployed Site</p>
             </div>
           </a>
-        </div>
+        </div>*/}
       </CardContent>
     </Card>
   )
