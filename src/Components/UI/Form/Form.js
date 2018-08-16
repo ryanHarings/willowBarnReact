@@ -12,7 +12,7 @@ const Form = () => {
   return (
     <React.Fragment>
       <h5 style={{textAlign: 'center'}}>Please fill out the form below and I'll get back to you as soon as possible!</h5>
-      <form action="https://formspree.io/ryanharings@hotmail.com" method="POST" id="contactForm">
+      <form action="https://formspree.io/events@thewillowbarn.com" method="POST" id="contactForm">
         <TextField
             style={styles}
             id="name"
@@ -35,8 +35,9 @@ const Form = () => {
             />
           <Button variant="contained" color="primary" type="submit">Send</Button>
     {/*<input type="hidden" name="_next" value="http://localhost:3000/" />*/}
-          <input type="hidden" name="_next" value="https://ryanharings.github.io/willowBarnReact/" />
+          <input type="hidden" name="_next" value="https://thewillowbarn.com" />
           <input type="hidden" name="_subject" value="Willow Barn Event Inquiry" />
+          <input type="hidden" name="_format" value="plain" />
         </form>
       </React.Fragment>
   )
