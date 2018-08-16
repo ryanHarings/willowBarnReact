@@ -34,7 +34,8 @@ const Form = () => {
               margin="normal"
             />
           <Button variant="contained" color="primary" type="submit">Send</Button>
-          <input type="hidden" name="_next" value="http://localhost:3000/" />
+    {/*<input type="hidden" name="_next" value="http://localhost:3000/" />*/}
+          <input type="hidden" name="_next" value="https://ryanharings.github.io/willowBarnReact/" />
           <input type="hidden" name="_subject" value="Willow Barn Event Inquiry" />
         </form>
       </React.Fragment>
