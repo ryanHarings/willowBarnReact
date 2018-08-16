@@ -1,5 +1,6 @@
 {
-  "homepage": "https://ryanHarings.github.io/willowBarnReact",
+  //"homepage": "https://ryanHarings.github.io/willowBarnReact",
+  "homepage": "https://thewillowbarn.com",
   "name": "willowBarn",
   "version": "0.1.0",
   "private": true,
