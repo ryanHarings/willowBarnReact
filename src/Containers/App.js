@@ -109,18 +109,18 @@ class App extends Component {
         <BackgroundImage background="Albuquerque">
           <CenterBox>
             <h1>The Willow Barn</h1>
-            <hr />
-            <h2>Your wedding, your day, your space</h2>
+      {/*  <hr />
+            <h2>Your wedding, your day, your space</h2> */}
           </CenterBox>
         </BackgroundImage>
         <TitleRow>
-          <h1>Historic</h1>
+          <h1>Rustic</h1>
         </TitleRow>
         <BackgroundImage background="Winnipeg">
           <Projects projectsList={this.state.projectsList} />
         </BackgroundImage>
         <TitleRow>
-          <h1>Rustic</h1>
+          <h1>Nostalgic</h1>
         </TitleRow>
         <BackgroundImage background="Boston">
       {/*<Skills skillsList={this.state.skillsList} />*/}

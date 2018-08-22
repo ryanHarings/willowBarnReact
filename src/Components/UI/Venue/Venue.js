@@ -18,13 +18,17 @@ import StarBorderIcon from '@material-ui/icons/StarBorder';
 /*<Image cloudName="ryanharings" publicId="WillowBarn/DSCN0455" width="300" crop="scale" />*/
 
 const tileData = ["WillowBarn/DSCN0455", "WillowBarn/DSCN0456", "WillowBarn/DSCN0468", "WillowBarn/DSCN0496", "WillowBarn/DSCN0475", "WillowBarn/DSCN0479"];
+const tileNames = ['Willow', 'Farm', 'Barn', 'Bridal', 'Decor', 'Milkhouse']
 
 const styles = theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
+    width: '100%',
+    height: '300',
+    justifyContent: 'center',
+    align: 'center',
+    overflow: 'auto',
     backgroundColor: theme.palette.background.paper,
     marginRight: '10px'
   },
@@ -37,7 +41,7 @@ const styles = theme => ({
     color: theme.palette.primary.light,
   },
   titleBar: {
-    background:'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
+    background:'linear-gradient(to top, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0) 0%)',
   },
 })
 
@@ -46,21 +50,21 @@ const Venue = (props) => {
 
   return (
     <div className={classes.root}>
-      <GridList className={classes.gridList} cols={2.5}>
-        {tileData.map(tile => (
+      <GridList className={classes.gridList} cols={2.5} cellHeight={400}>
+        {tileData.map((tile, index) => (
           <GridListTile key={tile}>
-            <Image cloudName="ryanharings" publicId={tile} width="900" crop="scale" />
+            <Image cloudName="ryanharings" publicId={tile} height="350px" />
             <GridListTileBar
-              title={tile}
+              title={tileNames[index]}
               classes={{
                 root: classes.titleBar,
                 title: classes.title,
               }}
-              actionIcon={
+          /* actionIcon={
                 <IconButton>
                   <StarBorderIcon className={classes.title} />
                 </IconButton>
-              }
+               } */
             />
           </GridListTile>
         ))}

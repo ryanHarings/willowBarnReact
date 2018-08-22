@@ -21,11 +21,11 @@ const toolbar = (props) => {
           </div>
           <div className={classes.row}>
             <div>
-              <Button onClick={props.showVenue}>The Venue</Button>
+              <Button onClick={props.showVenue}>Photo Gallery</Button>
               {/*<Button href="https://linkedin.com/in/nathanejbrown" target="_blank">Linkedin</Button>*/}
             </div>
             <div>
-              <Button href={rental} target="_blank">Info</Button>
+              <Button href={rental} target="_blank">Contract</Button>
               <Button onClick={props.showForm}>Contact</Button>
             </div>
           </div>
