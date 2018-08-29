@@ -21,9 +21,9 @@ const project = (props) => {
       <CardContent>
         <h1>{props.title}</h1>
         <p>{props.description}</p>
-          <ul>
-            {technologies}
-          </ul>
+        <ul>
+          {technologies}
+        </ul>
     {/*<div className={classes.horizontalAlign}>
           <a href={props.githubUrl} target="_blank">
             <div>

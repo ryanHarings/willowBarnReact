@@ -21,9 +21,11 @@ const skill = (props) => {
   return (
     <div className={classes.CircleCard}>
       <div>
-          <FontAwesomeIcon icon={myIcon} size='3x'/>
+    {/*<FontAwesomeIcon icon={myIcon} size='3x'/>*/}
           <h2>{props.type}</h2>
-          <p>{props.list.join(', ')}</p>
+          <p>{props.desc}</p>
+          <p>{props.list[0]}</p>
+          <p>{props.list[1]}</p>
       </div>
     </div>
   )

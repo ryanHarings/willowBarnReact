@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+p, ul {
+  font-size: .9em;
+  font-family: 'Dancing Script', cursive;
+}
+
 .borderLine {
   border-right: 1px solid grey;
   height: 55px;

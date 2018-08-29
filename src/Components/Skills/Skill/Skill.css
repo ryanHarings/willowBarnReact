@@ -1,6 +1,6 @@
 .CircleCard {
   background-color: white;
-  width: 300px;
+  width: 650px;
   height: 300px;
   border-radius: 50%;
   display: flex;
@@ -11,15 +11,16 @@
   padding-top: 2%;
   margin: 50px;
   opacity: 0.9;
+  font-size: 1.3em;
 }
 
 .CircleCard > div {
-  max-width: 200px;
+  max-width: 400px;
 }
 
 @media (max-width: 700px) {
   .CircleCard {
-    height: 280px;
-    width: 280px;
+    height: 300px;
+    width: 400px;
   }
 }

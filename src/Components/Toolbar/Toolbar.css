@@ -8,7 +8,8 @@
 .Toolbar * {
   text-decoration: none;
   color: #7E2C0C;
-  font-family: 'Arizonia', sans-serif;
+  font-size: 1.5em;
+  font-family: 'Tangerine', sans-serif;
   /* font-weight: bold; */
 }
 

@@ -19,61 +19,36 @@ class App extends Component {
   state = {
     projectsList: [
       {
-        title: '1800\'s restored barn in a quiet country setting',
-        description: 'Multi-level, open concept barn venue',
-        technologies: ['Dance Floor', 'Patio w/ Firepit', 'Underground Reception Hall', 'Bar Room'],
+        title: 'Reception, Dining and Dancing',
+        description: 'Lower barn level for reception area, upper hayloft for dining and dancing',
+        technologies: ['Patio with Firepit', '-', 'Milkhouse Bar'],
         githubUrl: 'https://github.com/nathanejbrown/beerleagueme',
         deployedUrl: 'https://nathanejbrown.github.io/beerleagueme'
       },
       {
-        title: 'Secluded Bridal Suite',
-        description: 'Private space to be pampered',
-        technologies: ['Detached', 'Tranquil', 'Spacious'],
+        title: 'Separate Bridal Suite',
+        description: 'A space for the bride and her party',
+        technologies: ['Quaint', '-', 'Private'],
         githubUrl: 'https://github.com/nathanejbrown/Burger-Builder',
         deployedUrl: 'https://nathanejbrown.github.io/Burger-Builder'
       }
-      /*{
-        title: 'Tribbianify',
-        description: 'This was a project I did for fun that’s based on an episode of Friends where Joey uses a thesaurus on every word in a letter he’s writing to make it sound more intelligent.',
-        technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'AJAX'],
-        githubUrl: 'https://github.com/nathanejbrown/q1Project',
-        deployedUrl: 'https://nathanejbrown.github.io/q1Project'
-      },
-      {
-        title: 'BeerLeagueMe',
-        description: 'This is an ongoing project to create a network of local sports events.',
-        technologies: ['JavaScript', 'AngularJS', 'Node.js', 'Express', 'PostgreSQL'],
-        githubUrl: 'https://github.com/nathanejbrown/beerleagueme',
-        deployedUrl: 'https://nathanejbrown.github.io/beerleagueme'
-      },
-      {
-        title: 'Burger Builder',
-        description: 'This is an ongoing project that I\'m working on as I continue to learn React.',
-        technologies: ['JavaScript', 'React', 'Axios'],
-        githubUrl: 'https://github.com/nathanejbrown/Burger-Builder',
-        deployedUrl: 'https://nathanejbrown.github.io/Burger-Builder'
-      },
-      {
-        title: 'Tribbianify',
-        description: 'This was a project I did for fun that’s based on an episode of Friends where Joey uses a thesaurus on every word in a letter he’s writing to make it sound more intelligent.',
-        technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'AJAX'],
-        githubUrl: 'https://github.com/nathanejbrown/q1Project',
-        deployedUrl: 'https://nathanejbrown.github.io/q1Project'
-      }*/
     ],
     skillsList: [
       {
-        skillType: 'Affordable',
-        skillsArray: ['', 'nice', 'fun']
-      },
-      {
+        skillType: 'The Willow Barn',
+        skillDesc: 'Enjoy a quiet, country setting with rustic charm on this 1909 family homestead. Plan your perfect day surrounded by willow trees, original hand-hewn beams and farm antiques.',
+        skillsArray: ['Phone: (715)-497-4531', 'Email: events@thewillowbarn.com'],
+        githubUrl: '',
+        deployedUrl: ''
+      }
+      /*{
         skillType: 'Fun',
         skillsArray: ['words', 'words', 'words']
       },
       {
         skillType: 'Memorable',
         skillsArray: ['Willow', 'Country']
-      }
+      }*/
     ],
     contacting: false
   }
@@ -123,7 +98,7 @@ class App extends Component {
           <h1>Nostalgic</h1>
         </TitleRow>
         <BackgroundImage background="Boston">
-      {/*<Skills skillsList={this.state.skillsList} />*/}
+          <Skills skillsList={this.state.skillsList} className="test" />
         </BackgroundImage>
       </React.Fragment>
     );

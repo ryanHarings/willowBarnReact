@@ -7,6 +7,7 @@ const Skills = (props) => {
     <Skill
       key={i}
       type={skill.skillType}
+      desc={skill.skillDesc}
       list={skill.skillsArray}
     />
   ))
