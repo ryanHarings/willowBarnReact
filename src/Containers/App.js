@@ -27,7 +27,7 @@ class App extends Component {
       },
       {
         title: 'Separate Bridal Suite',
-        description: 'A space for the bride and her party',
+        description: 'A space for the bride and her wedding party',
         technologies: ['Quaint', '-', 'Private'],
         githubUrl: 'https://github.com/nathanejbrown/Burger-Builder',
         deployedUrl: 'https://nathanejbrown.github.io/Burger-Builder'
@@ -89,13 +89,13 @@ class App extends Component {
           </CenterBox>
         </BackgroundImage>
         <TitleRow>
-          <h1>Rustic</h1>
+          <h1>Rustic Weddings</h1>
         </TitleRow>
         <BackgroundImage background="Winnipeg">
           <Projects projectsList={this.state.projectsList} />
         </BackgroundImage>
         <TitleRow>
-          <h1>Nostalgic</h1>
+          <h1>Nostalgic Parties</h1>
         </TitleRow>
         <BackgroundImage background="Boston">
           <Skills skillsList={this.state.skillsList} className="test" />
