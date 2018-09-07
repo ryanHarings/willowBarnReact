@@ -9,6 +9,7 @@ const Skills = (props) => {
       type={skill.skillType}
       desc={skill.skillDesc}
       list={skill.skillsArray}
+      link={skill.linkUrl}
     />
   ))
 

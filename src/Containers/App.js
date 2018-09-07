@@ -38,7 +38,7 @@ class App extends Component {
         skillType: 'The Willow Barn',
         skillDesc: 'Enjoy a quiet, country setting with rustic charm on this 1909 family homestead. Plan your perfect day surrounded by willow trees, original hand-hewn beams and farm antiques.',
         skillsArray: ['Phone: (715)-497-4531', 'Email: events@thewillowbarn.com'],
-        githubUrl: '',
+        linkUrl: '24159 150th Ave Cadott, WI 54727',
         deployedUrl: ''
       }
       /*{
@@ -81,7 +81,7 @@ class App extends Component {
         </PicModal>
         <Toolbar showForm={this.contactShowHandler} showVenue={this.venueShowHandler}/>
       
-        <BackgroundImage background="Albuquerque">
+        <BackgroundImage background="Albuquerque" alt="barn wedding">
           <CenterBox>
             <h1>The Willow Barn</h1>
       {/*  <hr />
@@ -91,13 +91,13 @@ class App extends Component {
         <TitleRow>
           <h1>Rustic Weddings</h1>
         </TitleRow>
-        <BackgroundImage background="Winnipeg">
+        <BackgroundImage background="Winnipeg" alt="wedding reception">
           <Projects projectsList={this.state.projectsList} />
         </BackgroundImage>
         <TitleRow>
           <h1>Nostalgic Parties</h1>
         </TitleRow>
-        <BackgroundImage background="Boston">
+        <BackgroundImage background="Boston" alt="wedding party">
           <Skills skillsList={this.state.skillsList} className="test" />
         </BackgroundImage>
       </React.Fragment>

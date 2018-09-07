@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from '@material-ui/core/Icon';
 
 import classes from './Skill.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -26,6 +27,7 @@ const skill = (props) => {
           <p>{props.desc}</p>
           <p>{props.list[0]}</p>
           <p>{props.list[1]}</p>
+          <a href={props.link}><Icon left>location_on</Icon>24159 150th Ave Cadott, WI 54727</a>
       </div>
     </div>
   )

@@ -10,7 +10,7 @@ const backgroundImage = (props) => {
     myClasses = [classes.BackgroundImage];
   }
   return (
-    <div className={myClasses.join(' ')}>
+    <div className={myClasses.join(' ')} alt="barn wedding">
       {props.children}
     </div>
   )
