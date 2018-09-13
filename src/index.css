@@ -6,6 +6,7 @@ html, body {
   overflow-x: hidden;
 }
 
-header {
+header, footer {
+
   display: none;
 }
