@@ -18,7 +18,7 @@ import StarBorderIcon from '@material-ui/icons/StarBorder';
 /*<Image cloudName="ryanharings" publicId="WillowBarn/DSCN0455" width="300" crop="scale" />*/
 
 const tileData = ["WillowBarn/DSCN0455", "WillowBarn/DSCN0456", "WillowBarn/DSCN0468", "WillowBarn/DSCN0496", "WillowBarn/DSCN0475", "WillowBarn/DSCN0479"];
-const tileNames = ['Willow', 'Farm', 'Barn', 'Bridal', 'Decor', 'Milkhouse']
+const tileNames = ['The Willow Barn', 'Patio and Firepit', 'Barn Level Receptions', 'Bridal Suite', 'Original Antique Decor', 'Milkhouse Bar']
 
 const styles = theme => ({
   root: {
