@@ -38,7 +38,7 @@ class App extends Component {
         skillType: 'The Willow Barn',
         skillDesc: 'Enjoy a quiet, country setting with rustic charm on this 1909 family homestead. Plan your perfect day surrounded by willow trees, original hand-hewn beams and farm antiques.',
         skillsArray: ['Phone: (715)-497-4531', 'Email: events@thewillowbarn.com'],
-        linkUrl: '24159 150th Ave Cadott, WI 54727',
+        linkUrl: 'https://www.google.com/maps/place/24159+150th+Ave,+Cadott,+WI+54727/@45.0567269,-91.1865369,14.47z/data=!4m13!1m7!3m6!1s0x52ab55cfb186b5ef:0xfda24a36c8aebeaa!2s24159+150th+Ave,+Cadott,+WI+54727!3b1!8m2!3d45.057585!4d-91.183846!3m4!1s0x52ab55cfb186b5ef:0xfda24a36c8aebeaa!8m2!3d45.057585!4d-91.183846',
         deployedUrl: ''
       }
       /*{
