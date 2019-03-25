@@ -53,7 +53,9 @@ const Venue = (props) => {
       <GridList className={classes.gridList} cols={2.5} cellHeight={400}>
         {tileData.map((tile, index) => (
           <GridListTile key={tile}>
-            <Image cloudName="ryanharings" publicId={tile} height="350px" />
+            <Image cloudName="ryanharings" publicId={tile} height="350px" >
+              <Transformation quality="auto" crop="scale" fetch_format="auto" />
+            </Image>
             <GridListTileBar
               title={tileNames[index]}
               classes={{

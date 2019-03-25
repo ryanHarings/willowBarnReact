@@ -11,20 +11,20 @@
 .Albuquerque {
   /* background-image: url('../../assets/Images/Albuquerque.jpg'); */
   /* background-image: url('https://s9739.pcdn.co/wp-content/uploads/2013/05/barn-wedding-rehearsal-outdoor-venue.jpg.optimal.jpg'); */
-  background-image: url('https://res.cloudinary.com/ryanharings/image/upload/v1533504343/WillowBarn/DSCN0456.jpg');
+  background-image: url('https://res.cloudinary.com/ryanharings/image/upload/f_auto,q_auto/v1533504343/WillowBarn/DSCN0456.jpg');
    /* <Image cloudName="ryanharings" publicId="WillowBarn/DSCN0508" width="900" crop="scale" /> */
 }
 
 .Winnipeg {
   /* background-image: url('../../assets/Images/Winnipeg.jpg'); */
   /* background-image: url('https://images.fineartamerica.com/images-medium-large-5/rustic-white-barn-cricket-hackmann.jpg'); */
-  background-image: url('https://res.cloudinary.com/ryanharings/image/upload/v1533504318/WillowBarn/DSCN0468.jpg');
+  background-image: url('https://res.cloudinary.com/ryanharings/image/upload/f_auto,q_auto/v1533504318/WillowBarn/DSCN0468.jpg');
 }
 
 .Boston {
   /* background-image: url('../../assets/Images/Boston.jpg'); */
   /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT_I1gVqH0jzEYRvXJS5eoEmIMAKix-BEr3WKdqCMXJkPjsIccyw'); */
-  background-image: url('https://res.cloudinary.com/ryanharings/image/upload/v1533504177/WillowBarn/DSCN0479.jpg');
+  background-image: url('https://res.cloudinary.com/ryanharings/image/upload/f_auto,q_auto/v1533504177/WillowBarn/DSCN0479.jpg');
 }
 
 @media (max-width: 800px) {
